@@ -21,7 +21,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="absolute right-0 -top-20 w-1/3 z-2">
-        <img src={bannerOne} alt="demo" />
+        {/* <img src={bannerOne} alt="demo" /> */}
       </div>
     </div>
   );
