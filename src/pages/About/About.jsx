@@ -1,39 +1,41 @@
 import React from "react";
 import Navbar from "../../Shared/NavBar/Navbar";
 import AboutDetails from "./AboutDetails";
-import image from "../../assets/images/ashis.jpeg";
+import image1 from "../../assets/images/ashis.jpeg";
+import image2 from "../../assets/images/deba.jpeg";
+import image3 from "../../assets/images/bidisha.jpeg";
 
 const About = () => {
   const datas = [
     {
       _id: 1,
-      name: "Ashis Roy One",
+      name: "Ashis Roy",
       roll: "123200903034",
-      image: image,
+      image: image1,
       year: "4th Year",
       branch: "CSE",
     },
     {
       _id: 2,
-      name: "Ashis Roy Two",
-      roll: "123200903034",
-      image: image,
+      name: "Debashis Barman",
+      roll: "123200903047",
+      image: image2,
       year: "4th Year",
       branch: "CSE",
     },
     {
       _id: 3,
-      name: "Ashis Roy Three",
-      roll: "123200903034",
-      image: image,
+      name: "Bidisha Baidya",
+      roll: "123200903040",
+      image: image3,
       year: "4th Year",
       branch: "CSE",
     },
     {
       _id: 4,
-      name: "Ashis Roy Four",
-      roll: "123200903034",
-      image: image,
+      name: "Bandisha Chowdhury",
+      roll: "123200903039",
+      image: image3,
       year: "4th Year",
       branch: "CSE",
     },
