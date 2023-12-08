@@ -4,6 +4,7 @@ import AboutDetails from "./AboutDetails";
 import image1 from "../../assets/images/ashis.jpeg";
 import image2 from "../../assets/images/deba.jpeg";
 import image3 from "../../assets/images/bidisha.jpeg";
+import image4 from "../../assets/images/bandisha.jpeg";
 
 const About = () => {
   const datas = [
@@ -35,7 +36,7 @@ const About = () => {
       _id: 4,
       name: "Bandisha Chowdhury",
       roll: "123200903039",
-      image: image3,
+      image: image4,
       year: "4th Year",
       branch: "CSE",
     },
