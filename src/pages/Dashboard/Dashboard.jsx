@@ -6,12 +6,12 @@ import Recipe from "./Recipe/Recipe";
 
 const Dashboard = () => {
   return (
-    <div className="drawer lg:drawer-open">
+    <div className="drawer lg:drawer-open ">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
 
       <div className="drawer-content flex flex-col  ">
         {/* Page content here */}
-        <div className=" rounded-md ml-3  bg-orange-500">
+        <div className=" rounded-md ml-3 mt-5 bg-orange-500">
           <div className=" ">
             <div className="">
               <h1 className="text-3xl font-bold text-center py-6">
@@ -33,7 +33,9 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        <div>{/* <Recipe></Recipe> */}</div>
+        <div>
+          <Recipe></Recipe>
+        </div>
         <Outlet></Outlet>
         {/* button place  */}
       </div>

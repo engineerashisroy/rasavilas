@@ -12,10 +12,11 @@ import History from "./pages/Dashboard/History";
 import Gethelp from "./pages/Dashboard/Gethelp";
 import Setting from "./pages/Dashboard/Setting";
 import Login from "./pages/Login/Login";
+import Footer from "./Shared/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className=" ">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -39,6 +40,7 @@ function App() {
           ></Route>
         </Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
